@@ -28,10 +28,10 @@ function enviarMail(mail) {
         transporter.sendMail(mailOptions, (err, res) => {
             if (err) {
                 console.log('Error enviando el email' + err)
-                reject(err)
+                //reject(err)
             } else {
                 console.log('Mail enviado')
-                resolve(res)
+                //resolve(res)
             }
         })
     })
